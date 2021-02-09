@@ -1,0 +1,147 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin: 0;
+    width: 100%; 
+    height: 100%;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, input, button, select, textarea {
+    font: 600 1rem Poppins;
+    color: #222222;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul, ol {
+    margin: 0 0 1rem;
+    padding: 0 0 1rem;
+  }
+/* img {
+    width: 1px;
+    height: 200px;
+} */
+
+
+.btn-green {
+    background-color: #32CD32 !important;
+}
+
+.btop {
+    border-top: 6px solid #06ac7a !important;
+}
+
+.text-light-grey {
+    color: #8f8e8e;
+}
+
+.news{
+    width: 100%;
+    height:100%;
+    /* background-color: rgb(221, 247, 221); */
+}
+
+
+.news_item{
+    width: 250px; 
+    
+}
+
+.font-sm{
+    font-size: small;
+}
+
+.scroll-wheel{
+    z-index: 2;
+    position: absolute;
+    left: 650px; 
+    top: 450px;
+    width: 74px;
+    height: 122px;
+    background: #EEEEEE;
+    border-radius: 100px;
+}
+
+#scroll-circle{
+    position: absolute;
+    left:25px;
+    left:25px;
+    top:100px;
+    z-index: 1;
+    width: 20px; 
+    height:20px;
+    border-radius: 100px;
+    background-color: #14CEDA;
+
+}
+
+.welcome-heading{
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+.welcome-heading span{
+    font-weight: 600;
+    color: #14CEDA;
+}
+
+.foundation{
+    width: 100vw;
+    height: 100vh;    
+}
+
+.heading{ 
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+.heading span{
+    font-weight: 600;
+    color: #14CEDA;
+
+}
+
+.grid-container_c{
+    display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-gap: 24px;
+    width: 50vw;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #14CEDA; */
+    padding: 24px;
+    justify-content: center;   
+    
+}
+
+.grid-container_c > div{
+    /* grid-area: 5/6; */
+    background-color: #EEEEEE;
+    width: 200px;
+    height:200px;
+    border-radius: 20px;
+}
+
+
+.categories h6{
+    text-align: center;
+    padding: 49% 0;
+    
+}
